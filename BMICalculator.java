@@ -42,8 +42,8 @@ public class BMICalculator {
     System.out.print("Enter your weight in lbs: ");
     lbs = keyboard.nextDouble();
 
-    feet = feet * 12;
-    inch = feet + inch;
+    feet *= 12;
+    inch += feet;
 
     m = inch * 0.0254;
     kg = lbs * 0.453592;
